@@ -1,0 +1,140 @@
+.body,html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
+}
+.image-bg{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.1 ;
+}
+.background-color{
+    position: absolute;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    height: 500px;
+    width: 800px;
+}
+.popup2{
+    z-index: 1;
+    position: relative;
+    display: none;
+    
+    height: 500px;
+    width: 800px;
+    
+}
+.img-popup{
+    height: 100%;
+    width: 50vw;
+    overflow: hidden;
+    float: left;
+}
+.form{
+    background-color: white;
+    width: 50vw;
+
+
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cik{
+    position:absolute;
+right: 5px;
+top: 5px;
+background-color: white;
+border: 0px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.spantitle{
+    
+    display: block;
+    text-align: center;
+}
+.spantitle2{
+    display: block;
+    text-align: center;
+    margin-top: 2vh;
+}
+.title{
+    margin-top: 10vh;
+}
+.title2{
+    margin-top: 10vh;
+}
+.input-style{
+    width: 70%;
+    height: 30px;
+    margin-left: 15%;
+    
+}
+.inputss{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.inputss2{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.button-input{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    height: 35px;
+cursor: pointer;
+}
+.button-input:hover{
+
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+.check-box{
+display: flex;
+text-align: center;
+margin-left: 10%;
+margin-right: 10%;
+}
+.check{
+    height: 15px;
+    width: 30px;
+   
+}
+.wiki{
+    color: black;
+    text-decoration: none;
+}
+.testarea{
+    border: 2px dashed rgb(131, 127, 127);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
